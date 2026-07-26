@@ -127,6 +127,7 @@
   ".htmlhintrc": "JSON",
   ".imgbotconfig": "JSON",
   ".nycrc": "JSON",
+  ".secrets.baseline": "JSON",
   ".tern-config": "JSON",
   ".tern-project": "JSON",
   ".watchmanconfig": "JSON",
