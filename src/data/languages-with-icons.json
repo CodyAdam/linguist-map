@@ -393,6 +393,20 @@
       "document"
     ]
   },
+  "Aleo": {
+    "type": "programming",
+    "color": "#154BF9",
+    "extensions": [
+      ".aleo"
+    ],
+    "tm_scope": "source.aleo",
+    "ace_mode": "text",
+    "language_id": 566431048,
+    "name": "Aleo",
+    "icons": [
+      "document"
+    ]
+  },
   "Alloy": {
     "type": "programming",
     "color": "#64C800",
@@ -719,6 +733,8 @@
     ],
     "extensions": [
       ".ahk",
+      ".ah1",
+      ".ah2",
       ".ahkl"
     ],
     "tm_scope": "source.ahk",
@@ -787,6 +803,21 @@
       "document"
     ]
   },
+  "B": {
+    "type": "programming",
+    "color": "#da7666",
+    "extensions": [
+      ".b"
+    ],
+    "tm_scope": "source.c",
+    "ace_mode": "text",
+    "language_id": 700792152,
+    "name": "B",
+    "icons": [
+      "brainfuck",
+      "document"
+    ]
+  },
   "B (Formal Method)": {
     "type": "programming",
     "color": "#8aa8c5",
@@ -795,7 +826,7 @@
     ],
     "tm_scope": "source.b",
     "ace_mode": "text",
-    "language_id": 700792152,
+    "language_id": 993355937,
     "name": "B (Formal Method)",
     "icons": [
       "document"
@@ -847,6 +878,38 @@
     "color": "#ff0000",
     "language_id": 28923963,
     "name": "BASIC"
+  },
+  "BBCode": {
+    "type": "markup",
+    "extensions": [
+      ".bbcode"
+    ],
+    "tm_scope": "text.bbcode",
+    "ace_mode": "text",
+    "color": "#CAFF42",
+    "language_id": 206921123,
+    "name": "BBCode",
+    "icons": [
+      "document"
+    ]
+  },
+  "BIRD2": {
+    "type": "data",
+    "color": "#b6d7e4",
+    "filenames": [
+      "bird.conf"
+    ],
+    "aliases": [
+      "bird",
+      "bird3"
+    ],
+    "ace_mode": "text",
+    "tm_scope": "source.bird2",
+    "language_id": 584191811,
+    "name": "BIRD2",
+    "icons": [
+      "document"
+    ]
   },
   "BQN": {
     "type": "programming",
@@ -5362,6 +5425,24 @@
       "vercel"
     ]
   },
+  "ImHex Pattern Language": {
+    "type": "programming",
+    "color": "#3a6be0",
+    "extensions": [
+      ".hexpat"
+    ],
+    "aliases": [
+      "ImHex",
+      "ImHexPatternLanguage",
+      "imhexpl"
+    ],
+    "tm_scope": "source.pl",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-csrc",
+    "language_id": 805861688,
+    "name": "ImHex Pattern Language"
+  },
   "ImageJ Macro": {
     "type": "programming",
     "color": "#99AAFF",
@@ -5533,6 +5614,23 @@
       "document"
     ]
   },
+  "JASS": {
+    "type": "programming",
+    "color": "#FF0303",
+    "aliases": [
+      "jass2"
+    ],
+    "extensions": [
+      ".j"
+    ],
+    "tm_scope": "source.jass",
+    "ace_mode": "text",
+    "language_id": 504860504,
+    "name": "JASS",
+    "icons": [
+      "document"
+    ]
+  },
   "JCL": {
     "type": "programming",
     "color": "#d90e09",
@@ -5651,6 +5749,7 @@
       ".jsonc",
       ".code-snippets",
       ".code-workspace",
+      ".hujson",
       ".sublime-build",
       ".sublime-color-scheme",
       ".sublime-commands",
@@ -6894,6 +6993,20 @@
       "livescript"
     ]
   },
+  "Lobster": {
+    "type": "programming",
+    "color": "#f95428",
+    "extensions": [
+      ".lobster"
+    ],
+    "ace_mode": "python",
+    "tm_scope": "source.lobster",
+    "language_id": 790066842,
+    "name": "Lobster",
+    "icons": [
+      "python"
+    ]
+  },
   "Logos": {
     "type": "programming",
     "extensions": [
@@ -7524,6 +7637,21 @@
     "language_id": 231,
     "name": "MiniD",
     "icons": [
+      "document"
+    ]
+  },
+  "MiniScript": {
+    "type": "programming",
+    "color": "#4B4A56",
+    "extensions": [
+      ".ms"
+    ],
+    "tm_scope": "source.ms",
+    "ace_mode": "text",
+    "language_id": 704299647,
+    "name": "MiniScript",
+    "icons": [
+      "assembly",
       "document"
     ]
   },
@@ -11324,12 +11452,12 @@
       "document"
     ]
   },
-  "SaltStack": {
+  "Salt": {
     "type": "programming",
-    "color": "#646464",
+    "color": "#57bcad",
     "aliases": [
-      "saltstate",
-      "salt"
+      "saltstack",
+      "saltstate"
     ],
     "extensions": [
       ".sls"
@@ -11339,7 +11467,7 @@
     "codemirror_mode": "yaml",
     "codemirror_mime_type": "text/x-yaml",
     "language_id": 339,
-    "name": "SaltStack",
+    "name": "Salt",
     "icons": [
       "yaml"
     ]
@@ -11507,6 +11635,7 @@
       ".command",
       ".fcgi",
       ".ksh",
+      ".pacscript",
       ".sbatch",
       ".sh.in",
       ".slurm",
@@ -12432,6 +12561,23 @@
       "document"
     ]
   },
+  "Tape": {
+    "type": "programming",
+    "aliases": [
+      "vhs"
+    ],
+    "extensions": [
+      ".tape"
+    ],
+    "tm_scope": "source.vhs",
+    "ace_mode": "text",
+    "language_id": 516874200,
+    "name": "Tape",
+    "icons": [
+      "tape",
+      "document"
+    ]
+  },
   "Tcl": {
     "type": "programming",
     "color": "#e4cc98",
@@ -12741,6 +12887,23 @@
       "document"
     ]
   },
+  "Tolk": {
+    "type": "programming",
+    "color": "#30A1F5",
+    "extensions": [
+      ".tolk"
+    ],
+    "tm_scope": "source.tolk",
+    "ace_mode": "text",
+    "codemirror_mode": "stylus",
+    "codemirror_mime_type": "text/x-styl",
+    "language_id": 678673060,
+    "name": "Tolk",
+    "icons": [
+      "document",
+      "stylus"
+    ]
+  },
   "Tor Config": {
     "type": "data",
     "color": "#59316b",
@@ -12844,7 +13007,8 @@
       "bun",
       "deno",
       "ts-node",
-      "tsx"
+      "tsx",
+      "node"
     ],
     "extensions": [
       ".ts",
@@ -13199,6 +13363,20 @@
     "name": "Verilog",
     "icons": [
       "vlang"
+    ]
+  },
+  "Verse": {
+    "type": "programming",
+    "color": "#518ef8",
+    "extensions": [
+      ".verse"
+    ],
+    "tm_scope": "source.verse",
+    "ace_mode": "text",
+    "language_id": 180832205,
+    "name": "Verse",
+    "icons": [
+      "document"
     ]
   },
   "Vim Help File": {
@@ -13871,6 +14049,7 @@
       ".pt",
       ".pubxml",
       ".qhelp",
+      ".rbxmx",
       ".rdf",
       ".res",
       ".resx",
@@ -13948,6 +14127,7 @@
       "mxml",
       "settings",
       "powershell",
+      "roblox",
       "rescript",
       "rust",
       "sway",
@@ -14759,6 +14939,25 @@
     "icons": [
       "templ",
       "document"
+    ]
+  },
+  "ucode": {
+    "type": "programming",
+    "color": "#00b8d4",
+    "extensions": [
+      ".uc"
+    ],
+    "interpreters": [
+      "ucode"
+    ],
+    "ace_mode": "javascript",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "text/javascript",
+    "tm_scope": "source.ucode",
+    "language_id": 365454253,
+    "name": "ucode",
+    "icons": [
+      "javascript"
     ]
   },
   "vCard": {

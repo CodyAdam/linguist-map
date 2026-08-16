@@ -5,6 +5,7 @@
   ".htaccess": "ApacheConf",
   "apache2.conf": "ApacheConf",
   "httpd.conf": "ApacheConf",
+  "bird.conf": "BIRD2",
   "gradlew.bat": "Batchfile",
   "mvnw.cmd": "Batchfile",
   ".browserslistrc": "Browserslist",
