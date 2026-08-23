@@ -1791,6 +1791,7 @@
       "._coffee",
       ".cake",
       ".cjsx",
+      ".coffee.erb",
       ".iced"
     ],
     "filenames": [
@@ -2875,6 +2876,18 @@
     "language_id": 106,
     "name": "FLUX"
   },
+  "FPP": {
+    "type": "programming",
+    "color": "#d37327",
+    "extensions": [
+      ".fpp",
+      ".fppi"
+    ],
+    "tm_scope": "source.fpp",
+    "ace_mode": "text",
+    "language_id": 252360067,
+    "name": "FPP"
+  },
   "Factor": {
     "type": "programming",
     "color": "#636746",
@@ -3498,6 +3511,7 @@
       "commit"
     ],
     "filenames": [
+      ".gitmessage",
       "COMMIT_EDITMSG"
     ],
     "ace_mode": "text",
@@ -4387,6 +4401,7 @@
       ".buckconfig",
       ".coveragerc",
       ".flake8",
+      ".gitreview",
       ".pylintrc",
       "HOSTS",
       "buildozer.spec",
@@ -4459,6 +4474,7 @@
       ".gitignore"
     ],
     "filenames": [
+      ".agignore",
       ".atomignore",
       ".babelignore",
       ".bzrignore",
@@ -4731,6 +4747,7 @@
       ".htmlhintrc",
       ".imgbotconfig",
       ".nycrc",
+      ".releaserc",
       ".secrets.baseline",
       ".tern-config",
       ".tern-project",
@@ -4782,6 +4799,7 @@
     "filenames": [
       ".babelrc",
       ".devcontainer.json",
+      ".eslintrc",
       ".eslintrc.json",
       ".jscsrc",
       ".jshintrc",
@@ -8446,9 +8464,12 @@
     "extensions": [
       ".r",
       ".rd",
+      ".rhistory",
       ".rsx"
     ],
     "filenames": [
+      ".Rapp.history",
+      ".Rhistory",
       ".Rprofile",
       "expr-dist"
     ],
@@ -11089,7 +11110,26 @@
     "language_id": 508563686,
     "name": "Vim Help File"
   },
-  "Vim Script": {
+  "Vim Snippet": {
+    "type": "markup",
+    "color": "#199f4b",
+    "aliases": [
+      "SnipMate",
+      "UltiSnip",
+      "UltiSnips",
+      "NeoSnippet"
+    ],
+    "extensions": [
+      ".snip",
+      ".snippet",
+      ".snippets"
+    ],
+    "tm_scope": "source.vim-snippet",
+    "ace_mode": "text",
+    "language_id": 81265970,
+    "name": "Vim Snippet"
+  },
+  "Vim script": {
     "type": "programming",
     "color": "#199f4b",
     "tm_scope": "source.viml",
@@ -11117,26 +11157,7 @@
     ],
     "ace_mode": "text",
     "language_id": 388,
-    "name": "Vim Script"
-  },
-  "Vim Snippet": {
-    "type": "markup",
-    "color": "#199f4b",
-    "aliases": [
-      "SnipMate",
-      "UltiSnip",
-      "UltiSnips",
-      "NeoSnippet"
-    ],
-    "extensions": [
-      ".snip",
-      ".snippet",
-      ".snippets"
-    ],
-    "tm_scope": "source.vim-snippet",
-    "ace_mode": "text",
-    "language_id": 81265970,
-    "name": "Vim Snippet"
+    "name": "Vim script"
   },
   "Visual Basic .NET": {
     "type": "programming",
@@ -11627,6 +11648,7 @@
       ".kml",
       ".launch",
       ".mdpolicy",
+      ".meta4",
       ".mjml",
       ".mm",
       ".mod",
@@ -11880,7 +11902,9 @@
       ".clang-format",
       ".clang-tidy",
       ".clangd",
+      ".eslintrc",
       ".gemrc",
+      ".releaserc",
       "CITATION.cff",
       "glide.lock",
       "pixi.lock",
