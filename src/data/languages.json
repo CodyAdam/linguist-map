@@ -8422,6 +8422,19 @@
     "language_id": 472308069,
     "name": "QuakeC"
   },
+  "Quartus Simulation IP": {
+    "type": "data",
+    "color": "#58C42E",
+    "extensions": [
+      ".sip"
+    ],
+    "tm_scope": "source.tcl",
+    "ace_mode": "tcl",
+    "codemirror_mode": "tcl",
+    "codemirror_mime_type": "text/x-tcl",
+    "language_id": 828144309,
+    "name": "Quartus Simulation IP"
+  },
   "QuickBASIC": {
     "type": "programming",
     "color": "#008080",
@@ -8949,6 +8962,17 @@
     "language_id": 498022874,
     "name": "Rez"
   },
+  "Rhai": {
+    "type": "programming",
+    "color": "#FBA63B",
+    "extensions": [
+      ".rhai"
+    ],
+    "tm_scope": "source.rhai",
+    "ace_mode": "text",
+    "language_id": 713228814,
+    "name": "Rhai"
+  },
   "Rich Text Format": {
     "type": "markup",
     "extensions": [
@@ -9293,6 +9317,19 @@
     "ace_mode": "text",
     "language_id": 880010326,
     "name": "SELinux Policy"
+  },
+  "SIP": {
+    "type": "programming",
+    "color": "#4E8D83",
+    "extensions": [
+      ".sip"
+    ],
+    "tm_scope": "source.c++",
+    "ace_mode": "c_cpp",
+    "codemirror_mode": "clike",
+    "codemirror_mime_type": "text/x-c++src",
+    "language_id": 796891177,
+    "name": "SIP"
   },
   "SMT": {
     "type": "programming",
@@ -11094,6 +11131,20 @@
     "ace_mode": "text",
     "language_id": 180832205,
     "name": "Verse"
+  },
+  "Vespa Schema Definition": {
+    "type": "data",
+    "color": "#61D790",
+    "extensions": [
+      ".sd"
+    ],
+    "tm_scope": "source.vespaSchema",
+    "ace_mode": "text",
+    "aliases": [
+      "vespa"
+    ],
+    "language_id": 587879709,
+    "name": "Vespa Schema Definition"
   },
   "Vim Help File": {
     "type": "prose",
