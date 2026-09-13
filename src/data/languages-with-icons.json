@@ -622,6 +622,23 @@
       "document"
     ]
   },
+  "ArkTS": {
+    "type": "programming",
+    "color": "#0080ff",
+    "extensions": [
+      ".ets"
+    ],
+    "tm_scope": "source.ets",
+    "ace_mode": "typescript",
+    "codemirror_mode": "javascript",
+    "codemirror_mime_type": "application/typescript",
+    "language_id": 56341321,
+    "name": "ArkTS",
+    "icons": [
+      "typescript",
+      "javascript"
+    ]
+  },
   "AsciiDoc": {
     "type": "prose",
     "color": "#73a0c5",
@@ -6569,6 +6586,23 @@
     "color": "#185619",
     "language_id": 191,
     "name": "LLVM",
+    "icons": [
+      "document"
+    ]
+  },
+  "LLVM TableGen": {
+    "type": "programming",
+    "extensions": [
+      ".td"
+    ],
+    "tm_scope": "source.tablegen",
+    "ace_mode": "text",
+    "color": "#6E8B3D",
+    "aliases": [
+      "tablegen"
+    ],
+    "language_id": 184265095,
+    "name": "LLVM TableGen",
     "icons": [
       "document"
     ]
